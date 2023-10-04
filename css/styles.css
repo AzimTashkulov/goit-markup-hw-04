@@ -1,4 +1,5 @@
-::after {
+:root {
+  --svg-icon-fill: #f4f4fd;
 }
 
 body {
@@ -212,7 +213,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpg);
+    url(../images/hero-bg.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -423,8 +424,27 @@ img {
 }
 
 .footer .container {
-  flex-direction: column;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer-about {
+  margin-right: 120px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-paragraf {
+  color: #FFFFFF;
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -454,8 +474,13 @@ img {
   max-width: 264px;
 }
 
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
 
 .footer-social-link {
+  display: flex;
   width: 100%;
   height: 100%;
   background: #4d5ae5;
@@ -463,4 +488,15 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: white;
 }
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-icon {
+  fill: var(--svg-icon-fill);
+}
+
