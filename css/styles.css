@@ -364,7 +364,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #404bbf;
   list-style: none;
   padding: 0;
 }
@@ -391,11 +390,6 @@ img {
 
 /* OUR PORTFOLIO SECTION */
 
-.our-portfolio-section {
-  position: relative;
-  overflow: hidden;
-}
-
 .our-portfolio-section .container {
   flex-direction: column;
 }
@@ -416,14 +410,9 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.heading-title {
-  
-}
-
 .our-portfolio-section__list-item__title {
   margin-bottom: 8px;
 }
-
 
 .our-portfolio-section__list-description {
   padding: 32px 16px;
