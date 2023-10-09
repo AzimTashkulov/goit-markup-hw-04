@@ -374,14 +374,17 @@ img {
 }
 
 .link-social-our-team-section {
+  background-color: #4d5ae5;
+  background-color: #404bbf;
+}
+
+.link-social-our-team-section {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #404bbf;
 }
 
 .our-team-section__list-description {
@@ -403,12 +406,15 @@ img {
   margin: 0;
 }
 
-.our-portfolio-section__list-item-img {
-  position: absolute;
+.our-portfolio__list-item-img {
   top: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  
+}
+
+.our-portfolio-section__list-item__content {
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
